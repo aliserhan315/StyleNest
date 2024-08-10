@@ -1,5 +1,5 @@
 import Home from "./routes/Home/Home.page";
-import SignIn from "./routes/sign-in/sign-in";
+import Authentication from "./routes/authentication/authentication";
 import { Route, Routes,Outlet } from "react-router-dom";
 
 import NavigationBar from "./routes/navigationbar/navigationbar";
@@ -16,7 +16,7 @@ function App() {
       <Route path="/" element={<NavigationBar/>}>
     <Route path="/home" element={<Home/>}></Route>
     <Route path="/shop" element={<Shop/>}></Route>
-    <Route path="/signIn" element={<SignIn/>}></Route>
+    <Route path="/signIn" element={<Authentication/>}></Route>
     </Route>
     
     </Routes>
