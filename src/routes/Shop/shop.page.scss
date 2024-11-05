@@ -1,0 +1,28 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 50px;
+  }
+
+  @media screen and (Max-width: 800px){
+    .products-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+  }
+
+  @media screen and (Max-width: 600px){
+    .products-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+  }
+  @media screen and (Max-width: 400px){
+    .products-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  @media screen and (Min-width: 1400px){
+    .products-container{
+        grid-template-columns: repeat(auto,1fr);
+    }
+  }

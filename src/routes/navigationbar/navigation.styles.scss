@@ -23,8 +23,15 @@
         cursor: pointer;
         color: black;
         font-family: Roboto Condensed;
+        
        
       
     }
     }
   }
+  @media (max-width: 768px) {
+    .nav-links-container {
+      width: auto;
+    }
+  }
+  

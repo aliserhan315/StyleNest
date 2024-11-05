@@ -4,9 +4,7 @@ import { Route, Routes,Outlet } from "react-router-dom";
 
 import NavigationBar from "./routes/navigationbar/navigationbar";
 
-const Shop = () =>{
- return <h1>shop page</h1>
-}
+import Shop from "./routes/Shop/shop.page";
 
 function App() {
 
@@ -16,6 +14,7 @@ function App() {
       <Route path="/" element={<NavigationBar/>}>
     <Route path="/home" element={<Home/>}></Route>
     <Route path="/shop" element={<Shop/>}></Route>
+    
     <Route path="/signIn" element={<Authentication/>}></Route>
     </Route>
     
