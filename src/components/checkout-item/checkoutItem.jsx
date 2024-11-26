@@ -3,7 +3,7 @@ import { CiCircleRemove } from "react-icons/ci";
 import CartItem from '../cart-item/cartItem';
 import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context';
-import { IoIosArrowDropup,IoIosArrowDropdown } from "react-icons/io";
+import { IoIosArrowDropright,IoIosArrowDropleft } from "react-icons/io";
 
 const CheckoutItem =({cartItem})=>{
     
@@ -21,11 +21,11 @@ const CheckoutItem =({cartItem})=>{
             <span className='name'>{name}</span>
             <span className='quantity'>
                 <div className='arrow'>
-                <IoIosArrowDropdown className='icon' onClick={decrement} />
+                <IoIosArrowDropleft className='icon' onClick={decrement} />
                 </div>
                 {quantity}
                 <div className='arrow'>
-                    <IoIosArrowDropup className='icon' onClick={increment} />
+                    <IoIosArrowDropright className='icon' onClick={increment} />
                 </div>
 
             </span>

@@ -26,12 +26,12 @@ function Home() {
     },
     {
       id: 4,
-      title: "women's",
+      title: "womens",
       imageUrl: womenImage
         },
     {
       id: 5,
-      title: "men's",
+      title: "mens",
       imageUrl: menImage
     }
    
