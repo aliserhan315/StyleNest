@@ -14,7 +14,7 @@ const NavigationBar =()=>{
 
     return <Fragment>
       <NavigationComponent> 
-      <LogoContainer to='/home'>
+      <LogoContainer to='/'>
             <Crwnlogo  className="logo"/>
             </LogoContainer>
             
